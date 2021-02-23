@@ -44,7 +44,7 @@ describe('app routes', () => {
           instock: true,
           owner_id: 1
         },
-        { "id": 2, "name": "Os Mutantes: s/t", "description": "the debut eponymous album by the Brazilian tropicalia band Os Mutantes", "category": "tropicalia", "price": 18, "instock": true, "owner_id": 1 }, { "id": 3, "name": "Kate Bush: Hounds Of Love", "description": "the fifth studio album by English singer-songwriter and musician Kate Bush", "category": "art pop", "price": 22, "instock": true, "owner_id": 1 }, { "id": 4, "name": "Beach Boys: Pet Sounds", "description": "Maybe the best record ever recorded?", "category": "pop", "price": 21, "instock": false, "owner_id": 1 }, { "id": 5, "name": "Sam Cooke: Live At The Harlem Square Club", "description": "the second live album by the American singer-songwriter Sam Cooke", "category": "soul", "price": 24, "instock": true, "owner_id": 1 }, { "id": 6, "name": "Duster: Stratosphere", "description": "the debut studio album by American space-rock band Duster", "category": "slowcore", "price": 23, "instock": false, "owner_id": 1 }, { "id": 7, "name": "WITCH: Lazy Bones", "description": "One of the defining albums from the zam-rock movement", "category": "zam-rock", "price": 21, "instock": true, "owner_id": 1 }, { "id": 8, "name": "The Cure: The Head On The Door", "description": "the first glimpse of the Cure as a pop band", "category": "new-wave", "price": 18, "instock": true, "owner_id": 1 }
+        { 'id': 2, 'name': 'Os Mutantes: s/t', 'description': 'the debut eponymous album by the Brazilian tropicalia band Os Mutantes', 'category': 'tropicalia', 'price': 18, 'instock': true, 'owner_id': 1 }, { 'id': 3, 'name': 'Kate Bush: Hounds Of Love', 'description': 'the fifth studio album by English singer-songwriter and musician Kate Bush', 'category': 'art pop', 'price': 22, 'instock': true, 'owner_id': 1 }, { 'id': 4, 'name': 'Beach Boys: Pet Sounds', 'description': 'Maybe the best record ever recorded?', 'category': 'pop', 'price': 21, 'instock': false, 'owner_id': 1 }, { 'id': 5, 'name': 'Sam Cooke: Live At The Harlem Square Club', 'description': 'the second live album by the American singer-songwriter Sam Cooke', 'category': 'soul', 'price': 24, 'instock': true, 'owner_id': 1 }, { 'id': 6, 'name': 'Duster: Stratosphere', 'description': 'the debut studio album by American space-rock band Duster', 'category': 'slowcore', 'price': 23, 'instock': false, 'owner_id': 1 }, { 'id': 7, 'name': 'WITCH: Lazy Bones', 'description': 'One of the defining albums from the zam-rock movement', 'category': 'zam-rock', 'price': 21, 'instock': true, 'owner_id': 1 }, { 'id': 8, 'name': 'The Cure: The Head On The Door', 'description': 'the first glimpse of the Cure as a pop band', 'category': 'new-wave', 'price': 18, 'instock': true, 'owner_id': 1 }
       ];
 
       const data = await fakeRequest(app)
@@ -58,13 +58,13 @@ describe('app routes', () => {
 
       const expectation =
       {
-        "id": 1,
-        "name": "Sun Ra: Space Is The Place",
-        "description": "an excellent introduction to Sun Ras vast and free-form jazz catalog",
-        "category": "jazz",
-        "price": 20,
-        "instock": true,
-        "owner_id": 1
+        'id': 1,
+        'name': 'Sun Ra: Space Is The Place',
+        'description': 'an excellent introduction to Sun Ras vast and free-form jazz catalog',
+        'category': 'jazz',
+        'price': 20,
+        'instock': true,
+        'owner_id': 1
       };
 
 
